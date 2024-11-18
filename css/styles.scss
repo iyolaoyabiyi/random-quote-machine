@@ -1,0 +1,13 @@
+$primary: #005f5f;
+
+.text-custom {
+  color: $primary;
+}
+.btn-custom {
+  background: $primary;
+  color: white;
+  &:hover {
+    background: #{$primary}dd;
+    color: white;
+  }
+}

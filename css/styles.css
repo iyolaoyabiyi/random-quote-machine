@@ -1,0 +1,12 @@
+.text-custom {
+  color: #005f5f;
+}
+
+.btn-custom {
+  background: #005f5f;
+  color: white;
+}
+.btn-custom:hover {
+  background: #005f5fdd;
+  color: white;
+}/*# sourceMappingURL=styles.css.map */

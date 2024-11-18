@@ -1,11 +1,11 @@
 $(document).ready(async () => {
   // get quotes
-  const data = await fetch("./quotes.json");
+  const data = await fetch("./assets/quotes.json");
   const quotes = await data.json();
   const quotesLen = quotes.length;
   const currentHistory = [];
   // create an array for full history
-  const unseenQuotes = JSON.parse(JSON.stringify(quotes));
+  
   // Function to get a random number
   const getRandomNum = (history, length) => {
     let num = Math.floor(Math.random() * length);
